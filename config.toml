@@ -2,4 +2,4 @@ baseurl = "http://manalas.com/"
 languageCode = "en-us"
 title = "Manalas"
 
-menu: ["main", "footer"]
+menu = ["main", "footer"]
