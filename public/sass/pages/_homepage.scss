@@ -1,0 +1,28 @@
+body.homepage {
+    padding-top: 0;
+
+    .navbar {
+        position: relative;
+        background: none;
+
+        .logo {
+            color: $main-color;
+        }
+
+        nav {
+            margin-top: 40px;
+            ul {
+                li {
+                    a {
+                        color: $main-color;
+                    }
+
+                    a:hover, &.active a {
+                        color: #FFF;
+                        background-color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}

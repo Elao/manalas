@@ -1,0 +1,11 @@
+pre {
+    margin: 15px 0 30px 0;
+    padding: 10px 15px;
+    background: #F4F3F2;
+    border-radius: 5px;
+
+    &, code {
+        font-family: "Inconsolata";
+        color: #333;
+    }
+}
