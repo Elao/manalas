@@ -47,10 +47,10 @@ fait pour du code, OUAIS OUAIS !</code></pre>
             <div class="col-sm-3 sidebar">
                 <nav class="fixed">
                     <ul>
-                        <li class="active"><a href="#">Mon lien 1</a></li>
-                        <li><a href="#">Mon lien 2</a></li>
-                        <li><a href="#">Mon lien 3</a></li>
-                        <li><a href="#">Mon lien 4</a></li>
+                        {{ $currentNode := . }}
+                        {{ range .Site.Menus.sidebar }}
+                            <li {{if ($currentNode.HasMenuCurrent "sidebar" .) }} class="active" {{end}}><a href="{{.Url}}">{{ .Name }}</a></li>
+                        {{ end }}
                     </ul>
                 </nav>
             </div>
