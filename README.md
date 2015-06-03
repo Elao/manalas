@@ -4,7 +4,7 @@
 
 # Run Hugo (Launching server)
 
-`hugo server --theme=hyde --buildDrafts --watch`
+`hugo server --theme=manalas --buildDrafts --watch --ignoreCache=true`
 
 # Using Hugo
 
