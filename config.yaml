@@ -13,15 +13,19 @@ menu:
       - Name:       "About"
         Identifier: "about"
         URL:        "/about"
-      - Name:       "Documentation"
-        Identifier: "documentation"
-        URL:        "/documentation"
-      - Name:       "Best practices"
-        Identifier: "best-practices"
-        URL:        "/best-practices"
+        Weight:     80
+      - Name:       "Recipes"
+        Identifier: "recipes"
+        URL:        "/recipes"
+        Weight:     90
+      - Name:       "Blog"
+        Identifier: "blog"
+        URL:        "/blog"
+        Weight:     100
       - Name:       "Contributors"
         Identifier: "contributors"
         URL:        "/contributors"
+        Weight:     110
   sidebar:
       - Name:       "Mon lien 1"
         Identifier: "mon-lien-1"
