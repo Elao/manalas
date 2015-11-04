@@ -11,7 +11,7 @@ help:
 	printf "${COLOR_COMMENT}Usage:${COLOR_RESET}\n"
 	printf " make [target]\n\n"
 	printf "${COLOR_COMMENT}Available targets:${COLOR_RESET}\n"
-	awk '/^[a-zA-Z\-\_0-9\.]+:/ { \
+	awk '/^[a-zA-Z\-\_0-9\.@]+:/ { \
 		helpMessage = match(lastLine, /^## (.*)/); \
 		if (helpMessage) { \
 			helpCommand = substr($$1, 0, index($$1, ":")); \
@@ -21,17 +21,26 @@ help:
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 
+## Install
 install:
+	brew update
 	brew install hugo
 	sudo easy_install Pygments
-	
-build:
-	hugo --theme=blog
+
+clean-up:
+	rm -rf public/*
+
+build: clean-up
+	hugo --theme=manalas --config=config.yaml
 	chmod -R a+r static/images
 
+build-assets:
+	gulp build
+
+## Build
+build: build build-assets
+
+## Hugo server (Dev only)
 server-start:
 	hugo server --theme=manalas --buildDrafts --watch --ignoreCache=true
 
-## Deploy app to production
-deploy-prod:
-	#rsync -arzv public deploy@manalas.elao.elao.local:/srv/app

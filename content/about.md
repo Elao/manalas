@@ -1,8 +1,9 @@
-+++
-date = "2015-06-02T15:46:20+02:00"
-draft = false
-title = "About"
-+++
+---
+type:   "page"
+date:   "2015-10-02"
+draft:  false
+title:  "About"
+---
 
 ## Who are we
 
@@ -22,7 +23,7 @@ Our initials goals was:
 
 * Quickly bootstrap a new project (We don't have time to lose to setup a local environment)
 * Allow developers to be independent without a sharp knowledge of linux administration.
-* Stay close of our production environment.
+* Stay as close as possible of our production environments.
 * Keep the availability to be very precise on the configuration of complex infrastructures (Clustering, HA ... ).
 
 ## What is this name ?
