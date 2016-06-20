@@ -1,8 +1,8 @@
 --- 
 
-baseurl:        "http://manalas.com/"
+baseurl:        "http://manala.io/"
 languageCode:   "en-us"
-title:          "Manalas"
+title:          "Manala project"
 
 params:
   Subtitle: "Spinning the cogs in the widgets"
@@ -14,14 +14,14 @@ menu:
         Identifier: "about"
         URL:        "/about"
         Weight:     80
-      - Name:       "Recipes"
-        Identifier: "recipes"
-        URL:        "/recipes"
+      - Name:       "How-to's"
+        Identifier: "howto"
+        URL:        "/howto"
         Weight:     90
-      - Name:       "Contributors"
-        Identifier: "contributors"
-        URL:        "/contributors"
-        Weight:     110
+      #- Name:       "Contributors"
+      #  Identifier: "contributors"
+      #  URL:        "/contributors"
+      #  Weight:     110
   sidebar:
       - Name:       "Mon lien 1"
         Identifier: "mon-lien-1"

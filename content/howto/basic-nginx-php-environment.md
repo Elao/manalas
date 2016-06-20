@@ -1,5 +1,5 @@
 ---
-type:               "recipe"
+type:               "howto"
 title:              "Basic Nginx/PHP environment"
 date:               "2015-07-21"
 publishdate:        "2015-07-21"

@@ -7,12 +7,12 @@ title:  "About"
 
 ## Who are we
 
-Manalas is a side project, lead by the french web agency [ELAO](http://www.elao.com).
+Manala is a side project, lead by the french web agency [ELAO](https://www.elao.com).
 We are familiar of custom made applications with critical impacts, specialists of PHP environments in particular [Symfony](http://symfony.com)
 
 Our customers comes from big companies with needs of critical softwares to promising start-up with big technical challenges.
 
-## Why Manalas ?
+## Why Manala ?
 
 Manalas is born from the assessment that it’s become very difficult to keep a local environment up to date when you are working on very different projects.
 Moderns IT projects bring to developpers a lot of complexity with several technical challenges (Backend / Frontend / API / Micro-services ...) with their own technical solutions (PHP, Angular, Ember, Python ... )
@@ -30,4 +30,4 @@ Our initials goals was:
 
 Long story short, Manala is a traditional milk breads, littleman shaped, with chocolate chip or raisin, coming from east of France and Germany. They are baked for Saint Nicholas Day.
 
-Don't ask why we choose it, I'm not sure myself to remember why ... 
+Don't ask why we have chosen it, we are not sure to remember why ... 
